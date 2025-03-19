@@ -1,0 +1,29 @@
+*{
+  background-color: grey;
+}
+
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+body {
+  background-color: rgb(200,200,150);
+}
+
+a{
+  background-color: white;
+}
+.grid-parent{
+  background-color: beige;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-templote-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.grid-child {
+  background-color: white;
+  border: 1px solid black;
+}
